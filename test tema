@@ -1,0 +1,489 @@
+.pageTitleWithDefaultLogo {
+  background-image: url(https://i.ibb.co/KxRqTPcD/logo.png);
+}
+
+/* 🖼️ Effetto hover poster */
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  z-index: 5;
+}
+.cardOverlayButton:hover {
+  transform: none !important; /* non sollevare i bottoni */
+}
+/* Apply progress bar gradient */
+.itemProgressBarForeground {
+	background: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
+}
+
+.layout-desktop .itemProgressBar {
+	background: #000;
+	height: 0.4em;
+	position: relative;
+
+}
+
+.playbackProgress {
+	color: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
+	background-color: #000 !important;
+	z-index: 1000;
+}
+
+/* Dashboard & button colours */
+
+.dashboardDocument .mainAnimatedPage {
+	font-family: "Noto Sans", sans-serif;
+}
+
+.css-17c09up.Mui-selected {
+	background-color: #c20000bf;
+	font-weight: 700 !important;
+}
+
+.css-17c09up.Mui-selected .css-37qkju {
+	color: rgba(255, 255, 255, 1);
+}
+
+.css-37qkju {
+	color: rgb(255, 255, 255);
+}
+
+.css-17c09up.Mui-selected:hover {
+	background-color: #c20000bf
+}
+
+.css-17c09up:hover {
+	text-decoration: none;
+	background-color: rgba(28, 21, 21, 0.37);
+}
+
+.css-1ip8vbj.Mui-selected {
+	background-color: #c20000bf;
+}
+
+.css-1ip8vbj.Mui-selected:hover {
+	background-color: #c20000bf;
+}
+
+.css-1ip8vbj:hover {
+	text-decoration: none;
+	background-color: rgba(28, 21, 21, 0.37);
+}
+
+.css-77wcaa .MuiAlert-icon {
+	color: rgb(246, 41, 41);
+}
+
+.css-1fv02xh {
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.css-1fv02xh:hover {
+	background-color: rgba(255, 31, 31, 0.85);
+}
+
+.css-77wcaa {
+	background-color: rgba(48, 6, 6, 0.26);
+}
+
+.css-195jjve {
+	background-color: rgb(52, 41, 41);
+}
+
+.css-1pjtbja {
+	color: #fff;
+}
+
+.css-1jmiiw3 .MuiDataGrid-row.Mui-selected {
+	background-color: rgba(220, 0, 0, 0.2);
+}
+
+.css-1jmiiw3 .MuiDataGrid-row.Mui-selected:hover {
+	background-color: rgba(220, 0, 0, 0.28);
+}
+
+#dashboardPage .listItemIcon.material-icons.notifications {
+	background-color: #af0a0a !important;
+}
+
+.material-icons.favorite,
+.material-icons.detailButton-icon.check.playstatebutton-icon-played,
+.material-icons.detailButton-icon.check.playstatebutton-icon-unplayed,
+.material-icons.detailButton-icon.theaters,
+.material-icons.detailButton-icon.more_vert,
+.material-icons.detailButton-icon.shuffle,
+.material-icons.detailButton-icon.play_arrow,
+.material-icons.detailButton-icon.explore,
+.material-icons.detailButton-icon.replay {
+	font-family: 'Material Icons';
+	filter: drop-shadow(0px 0px 4px rgb(0, 0, 0));
+}
+
+progress::-moz-progress-bar {
+	background-color: rgba(220, 0, 0, 0.9);
+}
+
+progress::-webkit-progress-value {
+	background-color: rgba(220, 0, 0, 0.9);
+}
+
+.taskProgressInner {
+	background: rgba(220, 0, 0, 0.9) !important;
+}
+
+#divRunningTasks span {
+	color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.listItemIcon:not(.listItemIcon-transparent) {
+	background-color: #dc000099;
+	border-radius: 100em;
+	color: #fff;
+	padding: .5em;
+}
+
+@media (hover: hover) and (pointer: fine) {
+	.paper-icon-button-light:hover:not(:disabled) {
+		color: rgba(255, 0, 0, 0.8);
+		background-color: rgba(0, 164, 220, 0.2);
+	}
+}
+
+@media (hover: hover) and (pointer: fine) {
+	.paper-icon-button-light:hover:not(:disabled) {
+		color: #e10000;
+		background-color: rgba(0, 164, 220, 0.2);
+	}
+}
+
+.paper-icon-button-light:active:not(:disabled) {
+	color: #e10000;
+	background-color: rgba(0, 164, 220, 0.2);
+}
+
+.paper-icon-button-light.show-focus:focus {
+	color: #e10000;
+}
+
+.emby-checkbox:checked+span+.checkboxOutline,
+.itemProgressBarForeground {
+	background-color: #000;
+}
+
+.button-submit {
+	background: #c20000bf;
+	color: #fff;
+}
+
+.button-submit:focus {
+	background: #fff;
+	color: #000;
+}
+
+.inputLabelFocused,
+.selectLabelFocused,
+.textareaLabelFocused {
+	color: #e10000;
+}
+
+.defaultCardBackground1 {
+	background-color: #5c0000;
+}
+
+.defaultCardBackground2 {
+	background-color: #e14444;
+}
+
+.defaultCardBackground3 {
+	background-color: #db0000;
+}
+
+.defaultCardBackground4 {
+	background-color: #5c1c1c;
+}
+
+.defaultCardBackground5 {
+	background-color: #a80000;
+}
+
+.itemSelectionPanel {
+	border: 1px solid #dc0000;
+}
+
+.selectionCommandsPanel {
+	background: #dc0000;
+	color: #fff;
+}
+
+.upNextDialog-countdownText {
+	color: #dc0000;
+}
+
+.alphaPickerButton {
+	color: rgba(255, 255, 255, 0.5);
+	background-color: transparent;
+	margin-bottom: 0.21em;
+	height: 3vh;
+	width: 3vw;
+	transition: color 0.1s ease;
+}
+
+.alphaPickerButton:hover {
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.alphaPickerButton-selected {
+	color: #fff;
+}
+
+.alphaPickerButton-tv:focus {
+	background-color: #dc0000;
+	color: #fff !important;
+}
+
+.progressring-spiner {
+	border-color: #dc0000;
+}
+
+.button-flat:hover {
+	color: #dc0000;
+}
+
+.button-link {
+	color: #fff;
+}
+
+.emby-input:focus,
+.emby-textarea:focus {
+	border-color: white;
+}
+
+.emby-select-withcolor:focus {
+	border-color: #dc0000 !important;
+}
+
+.emby-select-tv-withcolor:focus {
+	background-color: #dc0000 !important;
+	color: #fff !important;
+}
+
+.emby-checkbox:checked+span+.checkboxOutline {
+	border-color: #8a1313;
+}
+
+.emby-checkbox:focus:not(:checked)+span+.checkboxOutline {
+	border-color: #7c0909;
+}
+
+.itemProgressBarForeground-recording {
+	background-color: #cb272a;
+}
+
+.countIndicator,
+.fullSyncIndicator,
+.mediaSourceIndicator,
+.playedIndicator {
+	background: #dc0000;
+}
+
+.navMenuOption-selected {
+	background: #dc0000 !important;
+	color: #fff;
+}
+
+.emby-button.show-focus:focus {
+	background: #dc0000;
+	color: #fff;
+}
+
+.emby-tab-button.show-focus:focus {
+	color: #dc0000;
+}
+
+.emby-tab-button:hover {
+	color: #dc0000;
+}
+
+.programCell-sports {
+	background: #ab3939 !important;
+}
+
+.programCell-movie {
+	background: #b13535 !important;
+}
+
+.programCell-kids {
+	background: #e50303 !important;
+}
+
+.programCell-news {
+	background: #a04343 !important;
+}
+
+.guide-channelHeaderCell:focus,
+.programCell:focus {
+	background-color: #dc0000 !important;
+	color: #fff !important;
+}
+
+.guide-date-tab-button.emby-tab-button-active,
+.guide-date-tab-button:focus {
+	color: #dc0000;
+}
+
+.downloadbutton-icon-complete,
+.downloadbutton-icon-on {
+	color: #f44242;
+}
+
+.buttonActive {
+	color: #dc0000 !important;
+}
+
+.card:focus .cardBox.visualCardBox,
+.card:focus .cardBox:not(.visualCardBox) .cardScalable {
+	border-color: #dc0000 !important;
+}
+
+.itemsContainer>.card>.cardBox {
+	margin-left: 0.3em !important;
+	margin-right: 1.2em;
+	transition: color 1s;
+}
+
+.itemsContainer>.card>.cardBox:hover {
+	color: red;
+}
+
+.cardText.cardTextCentered.cardText-secondary {
+	transition: color 1.6s;
+	font-weight: 700;
+}
+
+#indexPage .cardText.cardTextCentered.cardText-secondary {
+	font-weight: 500;
+}
+
+.itemsContainer>.card>.cardBox:hover .cardText.cardTextCentered.cardText-secondary {
+	color: red;
+}
+
+.metadataSidebarIcon {
+	color: #dc0000;
+}
+
+.layout-tv .emby-button.detailFloatingButton:focus {
+	background-color: #f2f2f2;
+	color: #dc0000;
+}
+
+#dialogToc .bookplayerButtonIcon:hover {
+	color: #dc0000;
+}
+
+#dialogToc .toc li a:active,
+#dialogToc .toc li a:hover {
+	color: #dc0000;
+}
+
+.pageTitleWithDefaultLogo {
+  background-image: url(https://i.ibb.co/KxRqTPcD/logo.png);
+}
+
+/* Video Playback Progress Bar */
+.mdl-slider-background-lower {
+	background: #dc0000 !important;
+}
+
+.iconOsdProgressInner {
+	background: #f00;
+	border-radius: .25em;
+	height: 100%;
+}
+/* Edge & Chrome browser & JMP */
+
+.slider-browser-edge {
+	margin-left: -.16em;
+	margin-right: -.16em;
+	width: 150%
+}
+
+.mdl-slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	background: #dc0000;
+}
+
+/*Red Selector*/
+.navMenuOption:hover {
+	background: #790101eb !important;
+	color: white;
+	padding-left: 15% !important;
+	font-weight: 700 !important;
+}
+
+.mainDrawer,
+.drawer-open {
+	background-color: #000000f2;
+}
+
+.navMenuOptionIcon {
+	margin-right: 1em;
+	margin-left: -1em;
+}
+
+.mdl-slider::-moz-range-thumb {
+	background: #dc0000 !important;
+}
+
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #d90000 #0000 !important;
+}
+
+.sliderMarker.watched {
+	background-color: #dc0000f7;
+}
+/*Spinner*/
+.mdl-spinner__layer-1,
+.mdl-spinner__layer-2,
+.mdl-spinner__layer-3,
+.mdl-spinner__layer-4 {
+	border-color: #d90000 !important;
+}
+
+.starIcon {
+	margin-bottom: 0.2em;
+}
+
+.mediaInfoCriticRating {
+	margin-bottom: 0.2em;
+}
+
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #fff #0000 !important;
+}
+
+/* Progress ring */
+.progressring-spiner {
+	border-color: #dc0000f7;
+	border-width: .35em;
+}
+
+.progressring {
+	margin: .4em;
+}
+
+.progressring-bg {
+	display: none;
+}
+
+.cardBox:not(.visualCardBox) .cardPadder {
+	background-color: transparent !important;
+	box-shadow: 0 .0725em .29em 0 rgba(0, 0, 0, 0);
+}
+
+.pageTitleWithDefaultLogo {
+	background-image: url(https://i.ibb.co/KxRqTPcD/logo.png);
+}
